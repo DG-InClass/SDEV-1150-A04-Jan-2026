@@ -37,12 +37,7 @@ We meet on **Mondays** and **Thursdays**
   - Course Introduction
   - GitHub Account Setup
   - Software Setup
-  - Demo of
-    - Terminal commands
-    - HTML/CSS/JavaScript
-    - Workbook edits/commits
-  - Workbook Setup
-    - Instructor Workbook
+    - VS Code **Profiles**
 - **Homework:**
   - Ensure you have completed the [**system setup**](https://dgilleland.github.io/CPSC-1520/tutorials/0010/) so that you have the software etc. that you need for this course.
 
@@ -51,6 +46,14 @@ We meet on **Mondays** and **Thursdays**
 ### Day 2 | Jan 12
 
 - **Today**
+  - Software Setup
+    - VS Code **Profiles**
+  - Demo of
+    - Terminal commands
+    - HTML/CSS/JavaScript
+    - Workbook edits/commits
+  - Workbook Setup
+    - Instructor Workbook
 - **Homework**
 
 ### Day 3 | Jan 15
