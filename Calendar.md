@@ -22,7 +22,7 @@ This draft planning calendar shows the dates for all **evaluation items**. Offic
 | Week 12 | Mar 29 - Apr 4 |             | Due: Assignment 3 |
 | Week 13 |   Apr 5 - 11   |             | Out: Assignment 4 |
 | Week 14 |  Apr 12 - 18   | Quiz 4      |                   |
-| Week 15 |  Apr 19 - 25   |             | Due: Assignment 5 |
+| Week 15 |  Apr 19 - 25   |             | Due: Assignment 4 |
 
 ----
 
