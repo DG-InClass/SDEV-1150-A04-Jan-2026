@@ -59,6 +59,13 @@ We meet on **Mondays** and **Thursdays**
 ### Day 3 | Jan 15
 
 - **Today**
+  - Starter kit for today
+
+    ```ps
+    pnpm dlx tiged --disable-cache --force DG-InClass/SDEV-1150-A04-Jan-2026/sk/lesson-01 ./src/lesson-01
+    ```
+
+
 - **Homework**
 
 
