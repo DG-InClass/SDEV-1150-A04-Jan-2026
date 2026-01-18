@@ -58,18 +58,12 @@ We meet on **Mondays** and **Thursdays**
 
 ### Day 3 | Jan 15
 
-- **Today**
+- **Today** - Lesson 1
   - Starter kits for today
     - Viewing Web Pages *(hint - you need a web server)*
 
       ```ps
       pnpm dlx tiged --disable-cache --force DG-InClass/SDEV-1150-A04-Jan-2026/sk/lesson-01 ./src/lesson-01
-      ```
-
-    - Creating a Web App (alternate way)
-
-      ```ps
-      pnpm dlx tiged --disable-cache --force DG-InClass/SDEV-1150-A04-Jan-2026/sk/lesson-02 ./src/lesson-02
       ```
 
 - **Homework**
@@ -79,8 +73,33 @@ We meet on **Mondays** and **Thursdays**
 
 ### Day 4 | Jan 19
 
-- **Today**
+- **Today** - Lessons 2 + 3
+    - Creating a Web App using `pnpm create vite`
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force DG-InClass/SDEV-1150-A04-Jan-2026/sk/lesson-02 ./src/lesson-02
+      ```
+
+    - JavaScript Quick Start
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force DG-InClass/SDEV-1150-A04-Jan-2026/sk/js-quickstart ./src/js-quickstart
+      ```
+
+    - Getting Started with JavaScript
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force DG-InClass/SDEV-1150-A04-Jan-2026/sk/lesson-03 ./src/lesson-03
+      ```
+
 - **Homework**
+  - Add new JavaScript Quickstart files to your Workbook by going through the following tutorial series (remember to commit each tutorial as you complete it). Each tutorial should take between 20 and 40 minutes to complete. Complete one tutorial per day over this week.
+    - [Intro to JavaScript - JavaScript Quickstart](https://dgilleland.github.io/CPSC-1520/tutorials/0012/)
+    - [JavaScript Math - Arithmetic Operations in JavaScript](https://dgilleland.github.io/CPSC-1520/tutorials/0014/)
+    - [Manipulate Strings](https://dgilleland.github.io/CPSC-1520/tutorials/0015/)
+    - [Complex Data Types](https://dgilleland.github.io/CPSC-1520/tutorials/0016/)
+    - [Functions](https://dgilleland.github.io/CPSC-1520/tutorials/0017/)
+    - [More Objects](https://dgilleland.github.io/CPSC-1520/tutorials/0018/)
 
 ### Day 5 | Jan 22
 
