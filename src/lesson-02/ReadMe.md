@@ -40,6 +40,10 @@ npm create vite@latest lesson-02 -- --template vanilla
 ```sh
 cd lesson-02
 ```
+   or you can right-click on your folder and choose open in integrated terminal:
+
+   ![](./img/open-in-terminal.png)
+
 2. Install the necessary dependencies:
 ```sh
 npm install
