@@ -86,6 +86,16 @@ We meet on **Mondays** and **Thursdays**
       pnpm dlx tiged --disable-cache --force DG-InClass/SDEV-1150-A04-Jan-2026/sk/js-quickstart ./src/js-quickstart
       ```
 
+- **Homework**
+  - Add new JavaScript Quickstart files to your Workbook by going through the following tutorial series (remember to commit each tutorial as you complete it). Each tutorial should take between 20 and 40 minutes to complete. Complete one tutorial per day over this week.
+    - [Intro to JavaScript - JavaScript Quickstart](https://dgilleland.github.io/CPSC-1520/tutorials/0012/)
+    - [JavaScript Math - Arithmetic Operations in JavaScript](https://dgilleland.github.io/CPSC-1520/tutorials/0014/)
+    - [Manipulate Strings](https://dgilleland.github.io/CPSC-1520/tutorials/0015/)
+    - [Complex Data Types](https://dgilleland.github.io/CPSC-1520/tutorials/0016/)
+
+### Day 5 | Jan 22
+
+- **Today**
     - Getting Started with JavaScript
 
       ```ps
@@ -93,18 +103,9 @@ We meet on **Mondays** and **Thursdays**
       ```
 
 - **Homework**
-  - Add new JavaScript Quickstart files to your Workbook by going through the following tutorial series (remember to commit each tutorial as you complete it). Each tutorial should take between 20 and 40 minutes to complete. Complete one tutorial per day over this week.
-    - [Intro to JavaScript - JavaScript Quickstart](https://dgilleland.github.io/CPSC-1520/tutorials/0012/)
-    - [JavaScript Math - Arithmetic Operations in JavaScript](https://dgilleland.github.io/CPSC-1520/tutorials/0014/)
-    - [Manipulate Strings](https://dgilleland.github.io/CPSC-1520/tutorials/0015/)
-    - [Complex Data Types](https://dgilleland.github.io/CPSC-1520/tutorials/0016/)
+  - Continue working on these JavaScript Quickstart tutorials
     - [Functions](https://dgilleland.github.io/CPSC-1520/tutorials/0017/)
     - [More Objects](https://dgilleland.github.io/CPSC-1520/tutorials/0018/)
-
-### Day 5 | Jan 22
-
-- **Today**
-- **Homework**
 
 ----
 
