@@ -58,7 +58,7 @@ We meet on **Mondays** and **Thursdays**
 
 ### Day 3 | Jan 15
 
-- **Today** - Lesson 1
+- **Today** - [Lesson 1](https://dg-inclass.github.io/sdev-1150/lessons/01/)
   - Starter kits for today
     - Viewing Web Pages *(hint - you need a web server)*
 
@@ -73,7 +73,7 @@ We meet on **Mondays** and **Thursdays**
 
 ### Day 4 | Jan 19
 
-- **Today** - Lessons 2 + 3
+- **Today** - [Lesson 2](https://dg-inclass.github.io/sdev-1150/lessons/02/)
     - Creating a Web App using `pnpm create vite`
 
       ```ps
@@ -95,11 +95,19 @@ We meet on **Mondays** and **Thursdays**
 
 ### Day 5 | Jan 22
 
-- **Today**
-    - Getting Started with JavaScript
+- **Today** - Lesson 3 + Lesson 4
+    - Lesson 3 - Intro to JavaScript: Types, Variables, Built-in Functions
 
       ```ps
       pnpm dlx tiged --disable-cache --force DG-InClass/SDEV-1150-A04-Jan-2026/sk/lesson-03 ./src/lesson-03
+      ```
+
+      We'll begin this one as a stand-alone JavaScript file. Then you can re-do it within the [`main.js`](./src/lesson-03/src/main.js) of the Lesson 3 starter.
+
+    - Lesson 4 - Flow and Debugging in the Browser
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force DG-InClass/SDEV-1150-A04-Jan-2026/sk/lesson-04 ./src/lesson-04
       ```
 
 - **Homework**
@@ -112,18 +120,77 @@ We meet on **Mondays** and **Thursdays**
 ### Day 6 | Jan 26
 
 - **Today**
+    - Lesson 5 - Introduction to the Document Object Model (DOM)
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force DG-InClass/SDEV-1150-A04-Jan-2026/sk/lesson-05 ./src/lesson-05
+      ```
+
 - **Homework**
 
 ### Day 7 | Jan 29
 
 - **Today**
+    - Lesson 6 - Dynamic content
+      - We'll be updating content on the page programmatically. We'll also do a little bit of looping (using `.forEach()` of `document.querySelectorAll()`) and see a `setTimeout()`.
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force DG-InClass/SDEV-1150-A04-Jan-2026/sk/lesson-06 ./src/lesson-06
+      ```
+
 - **Homework**
 
 
+### Day 8 | Feb 2
+
+- **Today**
+    - Lesson 8 - Intro to Event-Driven Applications
+      - We'll be discovering the various *Event Listeners* we can create.
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force DG-InClass/SDEV-1150-A04-Jan-2026/sk/lesson-08 ./src/lesson-08
+      ```
+
+- **Homework**
 
 
+### Day 9 | Feb 5
+
+- **Today**
+    - Lesson 9 - Event-driven UI
+      - We'll be exploring event propagation and how to stop "bubbling" and default behaviour
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force DG-InClass/SDEV-1150-A04-Jan-2026/sk/lesson-09 ./src/lesson-09
+      ```
+
+- **Homework**
 
 
+### Day 10 | Feb 9
+
+- **Today**
+    - Lesson 10 - Form Event Handling
+      - We'll be applying what we've learned from handling events and adding in the ability to process user input via HTML Forms and client-side processing.
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force DG-InClass/SDEV-1150-A04-Jan-2026/sk/lesson-10 ./src/lesson-10
+      ```
+
+- **Homework**
+
+
+### Day 11 | Feb 12
+
+- **Today**
+    - Lesson 11 - HTML Form Validation
+      - We'll buid on our form processing by performing validation of user input.
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force DG-InClass/SDEV-1150-A04-Jan-2026/sk/lesson-11 ./src/lesson-11
+      ```
+
+- **Homework**
 
 
 
