@@ -2,7 +2,7 @@
 
 We meet on **Mondays** and **Thursdays**
 
-> These are my notes on what I plan to teach in each [**upcoming class**](#day-4--jan-19). Also check out the [**Draft Planning Calendar**](./Calendar.md).
+> These are my notes on what I plan to teach in each [**upcoming class**](#day-6--jan-26). Also check out the [**Draft Planning Calendar**](./Calendar.md).
 >
 > ###### *... Warn those who are idle ..., encourage the disheartened, help the weak, be patient with everyone.*
 >
@@ -95,7 +95,7 @@ We meet on **Mondays** and **Thursdays**
 
 ### Day 5 | Jan 22
 
-- **Today** - Lesson 3 + Lesson 4
+- **Today** - [Lesson 3](https://dg-inclass.github.io/sdev-1150/lessons/03/)
     - Lesson 3 - Intro to JavaScript: Types, Variables, Built-in Functions
 
       ```ps
@@ -103,12 +103,6 @@ We meet on **Mondays** and **Thursdays**
       ```
 
       We'll begin this one as a stand-alone JavaScript file. Then you can re-do it within the [`main.js`](./src/lesson-03/src/main.js) of the Lesson 3 starter.
-
-    - Lesson 4 - Flow and Debugging in the Browser
-
-      ```ps
-      pnpm dlx tiged --disable-cache --force DG-InClass/SDEV-1150-A04-Jan-2026/sk/lesson-04 ./src/lesson-04
-      ```
 
 - **Homework**
   - Continue working on these JavaScript Quickstart tutorials
@@ -119,7 +113,15 @@ We meet on **Mondays** and **Thursdays**
 
 ### Day 6 | Jan 26
 
-- **Today**
+- **Today** - [Lesson 4](https://dg-inclass.github.io/sdev-1150/lessons/04/) + [Lesson 5](https://dg-inclass.github.io/sdev-1150/lessons/05/)
+    - Lesson 4 - Flow and Debugging in the Browser
+
+      🚨 Even if you ran the code to get the starter kit during the last class, run it again. I've done some updates....
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force DG-InClass/SDEV-1150-A04-Jan-2026/sk/lesson-04 ./src/lesson-04
+      ```
+
     - Lesson 5 - Introduction to the Document Object Model (DOM)
 
       ```ps
