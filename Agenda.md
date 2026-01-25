@@ -129,6 +129,12 @@ We meet on **Mondays** and **Thursdays**
       ```
 
 - **Homework**
+  - Read this article
+    - [Finding DOM Elements](https://dgilleland.github.io/CPSC-1520/guides/0030/)
+  - Try out the following tutorials:
+    - [Discover Emmet](https://dgilleland.github.io/CPSC-1520/tutorials/0025/)
+    - [Querying the DOM](https://dgilleland.github.io/CPSC-1520/tutorials/0030/)
+    - [Using `<script>` Tags](https://dgilleland.github.io/CPSC-1520/tutorials/0040/)
 
 ### Day 7 | Jan 29
 
@@ -141,6 +147,8 @@ We meet on **Mondays** and **Thursdays**
       ```
 
 - **Homework**
+  - Read the following:
+    - [How JavaScript Works](https://dgilleland.github.io/CPSC-1520/explanations/0025/)
 
 
 ### Day 8 | Feb 2
@@ -154,6 +162,8 @@ We meet on **Mondays** and **Thursdays**
       ```
 
 - **Homework**
+  - Try out the following tutorial:
+    - [Intro to Event Listeners](https://dgilleland.github.io/CPSC-1520/tutorials/0070/)
 
 
 ### Day 9 | Feb 5
