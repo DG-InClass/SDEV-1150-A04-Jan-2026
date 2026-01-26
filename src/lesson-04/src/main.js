@@ -57,7 +57,7 @@ for (let j = 0; j < 3; j++) {
 // Student TODO:
 // 7. Snippet with bugs for debugging practice
 // Snippet with bugs for debugging practice - uncomment when ready
-/*
+
 const num = 10;
 
 if (num < 5) {
@@ -72,4 +72,4 @@ while (k < 3) {
   k + 1;
 	console.log(k);
 }
-*/
+
