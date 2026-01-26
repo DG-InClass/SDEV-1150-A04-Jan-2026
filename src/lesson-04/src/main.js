@@ -8,13 +8,17 @@
 console.log('Lesson 04 starter loaded');
 
 // 1. Simple if
+// The block of code immediately after the "conditional expression" (the t/f question) is what code runs on the "condition" of it being true.
 const x = 5;
 if (x > 0) {
   console.log('x is positive');
 }
 
 // 2. if-else
-if (x % 2 === 0) {
+// An "else" block (or portion) to the "if" statement is
+// optional. It represents the code that would be run should
+// the conditional expression be false.
+if (x % 2 === 0) { // The === is called the "strict equal"
   console.log('x is even');
 } else {
   console.log('x is odd');
