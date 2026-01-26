@@ -60,7 +60,7 @@ for (let j = 0; j < 3; j++) {
 
 const num = 10;
 
-if (num < 5) {
+if (num > 5) { // Fixed bug!
   console.log('num is greater than 5');
 } else {
   console.log('num is 5 or less');
@@ -69,7 +69,7 @@ if (num < 5) {
 // Count from zero to 3
 let k = 0;
 while (k < 3) {
-  k + 1;
+  k = k + 1; // Fixed bug!
 	console.log(k);
 }
 
