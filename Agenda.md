@@ -122,12 +122,6 @@ We meet on **Mondays** and **Thursdays**
       pnpm dlx tiged --disable-cache --force DG-InClass/SDEV-1150-A04-Jan-2026/sk/lesson-04 ./src/lesson-04
       ```
 
-    - Lesson 5 - Introduction to the Document Object Model (DOM)
-
-      ```ps
-      pnpm dlx tiged --disable-cache --force DG-InClass/SDEV-1150-A04-Jan-2026/sk/lesson-05 ./src/lesson-05
-      ```
-
 - **Homework**
   - Read this article
     - [Finding DOM Elements](https://dgilleland.github.io/CPSC-1520/guides/0030/)
@@ -139,6 +133,13 @@ We meet on **Mondays** and **Thursdays**
 ### Day 7 | Jan 29
 
 - **Today**
+    - Lesson 5 - Introduction to the Document Object Model (DOM)
+      - If we're going to use JavaScript to modify the content on the page, we need to know how to *select* some part of the page. And that requires a knowledge of the DOM and a few methods of the `document` object.
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force DG-InClass/SDEV-1150-A04-Jan-2026/sk/lesson-05 ./src/lesson-05
+      ```
+
     - Lesson 6 - Dynamic content
       - We'll be updating content on the page programmatically. We'll also do a little bit of looping (using `.forEach()` of `document.querySelectorAll()`) and see a `setTimeout()`.
 
