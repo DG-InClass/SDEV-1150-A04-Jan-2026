@@ -133,19 +133,13 @@ We meet on **Mondays** and **Thursdays**
 ### Day 7 | Jan 29
 
 - **Today**
-    - Lesson 5 - Introduction to the Document Object Model (DOM)
-      - If we're going to use JavaScript to modify the content on the page, we need to know how to *select* some part of the page. And that requires a knowledge of the DOM and a few methods of the `document` object.
+  - [Crash Course on HTML/CSS](./src/html/demo-2/)
+  - Lesson 5 - Introduction to the Document Object Model (DOM)
+    - If we're going to use JavaScript to modify the content on the page, we need to know how to *select* some part of the page. And that requires a knowledge of the DOM and a few methods of the `document` object.
 
-      ```ps
-      pnpm dlx tiged --disable-cache --force DG-InClass/SDEV-1150-A04-Jan-2026/sk/lesson-05 ./src/lesson-05
-      ```
-
-    - Lesson 6 - Dynamic content
-      - We'll be updating content on the page programmatically. We'll also do a little bit of looping (using `.forEach()` of `document.querySelectorAll()`) and see a `setTimeout()`.
-
-      ```ps
-      pnpm dlx tiged --disable-cache --force DG-InClass/SDEV-1150-A04-Jan-2026/sk/lesson-06 ./src/lesson-06
-      ```
+    ```ps
+    pnpm dlx tiged --disable-cache --force DG-InClass/SDEV-1150-A04-Jan-2026/sk/lesson-05 ./src/lesson-05
+    ```
 
 - **Homework**
   - Read the following:
@@ -155,28 +149,36 @@ We meet on **Mondays** and **Thursdays**
 ### Day 8 | Feb 2
 
 - **Today**
-    - Lesson 8 - Intro to Event-Driven Applications
-      - We'll be discovering the various *Event Listeners* we can create.
+  - *Continue **Lesson 5***
+  - Lesson 6 - Dynamic content
+    - We'll be updating content on the page programmatically. We'll also do a little bit of looping (using `.forEach()` of `document.querySelectorAll()`) and see a `setTimeout()`.
 
-      ```ps
-      pnpm dlx tiged --disable-cache --force DG-InClass/SDEV-1150-A04-Jan-2026/sk/lesson-08 ./src/lesson-08
-      ```
+    ```ps
+    pnpm dlx tiged --disable-cache --force DG-InClass/SDEV-1150-A04-Jan-2026/sk/lesson-06 ./src/lesson-06
+    ```
 
 - **Homework**
-  - Try out the following tutorial:
-    - [Intro to Event Listeners](https://dgilleland.github.io/CPSC-1520/tutorials/0070/)
-
 
 ### Day 9 | Feb 5
 
 - **Today**
-    - Lesson 9 - Event-driven UI
-      - We'll be exploring event propagation and how to stop "bubbling" and default behaviour
+  - Lesson 8 - Intro to Event-Driven Applications
+    - We'll be discovering the various *Event Listeners* we can create.
 
-      ```ps
-      pnpm dlx tiged --disable-cache --force DG-InClass/SDEV-1150-A04-Jan-2026/sk/lesson-09 ./src/lesson-09
-      ```
+    ```ps
+    pnpm dlx tiged --disable-cache --force DG-InClass/SDEV-1150-A04-Jan-2026/sk/lesson-08 ./src/lesson-08
+    ```
 
+  - Lesson 9 - Event-driven UI
+    - We'll be exploring event propagation and how to stop "bubbling" and default behaviour
+
+    ```ps
+    pnpm dlx tiged --disable-cache --force DG-InClass/SDEV-1150-A04-Jan-2026/sk/lesson-09 ./src/lesson-09
+    ```
+
+- **Homework**
+  - Try out the following tutorial:
+    - [Intro to Event Listeners](https://dgilleland.github.io/CPSC-1520/tutorials/0070/)
 - **Homework**
 
 
