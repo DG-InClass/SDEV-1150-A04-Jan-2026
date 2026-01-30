@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="page-title">HTML Basics</title>
+    <style>
+        /* We can style our page contents using CSS */
+        /* Identifying the part(s) our our page using Selector Syntax */
+        /* The <h1> element(s) will have the styling applied */
+        h1 {
+            color: orange;
+        }
+        /* .italics is called a CSS Class Name
+           - everything with    class="italics"  will match this selector */
+        .italics {
+            font-style: italic;
+            font-weight: bold;
+        }
+        /* #copyright   is called an Identifier (or just ID)
+           - There should only be one with this specific value
+           - It matches for     id="copyright" */
+        #copyright {
+            font-size: small;
+            color: green;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>The HTML Your Teacher Never Taught You</h1>
+        <input type="password" placeholder="Enter your password" />
+        <p>Your teacher was focusing on the HTML tags and nesting/stacking them.</p>
+        <p id="for-js">But now, we need to have you familiar with <span class="italics">CSS</span> and <span class="italics">Stylesheets</span></p>
+    </main>
+    <footer>
+        <p id="copyright">&copy; 2026 by <span class="italics">Stewart Dent</span></p>
+    </footer>
+</body>
+</html>
