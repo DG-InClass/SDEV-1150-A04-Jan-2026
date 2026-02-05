@@ -58,3 +58,26 @@ document.addEventListener('keydown', function(evt) {
 });
 
 // 7. Event delegation: one listener on the <ul> for all <li> elements
+const list = document.querySelector('#list');
+const selection = document.querySelector('#selection');
+
+list.addEventListener('click', function(ev) {
+    // Making sure that the thing clicked on was an <li> element
+    if (ev.target.tagName === 'LI') {
+        // Remove previous selection by looking for some <li class="active">
+        const prev = list.querySelector('li.active');
+        // Note that our .querySelector() function is a function available
+        // on any HTMLElement in our document
+        if (prev) {
+            prev.classList.remove('active');
+        }
+
+        // Activate clicked list item
+        const li = ev.target; // should be the <li> element
+        li.classList.add('active');
+
+        // <li data-id="2">
+        const id = li.getAttribute('data-id');
+        selection.textContent = `Selected: Item ${id}`;
+    }
+});
