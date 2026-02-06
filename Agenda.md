@@ -204,7 +204,7 @@ We meet on **Mondays** and **Thursdays**
     - *Using `npm run` in the terminal to discover the available package scripts*
     - *Commentary on `.innerText` vs. `.textContent`*
     - *Using the `<link>` to link up CSS files*
-    - *About `prompt()` looping...*
+    - *About `prompt()` validation (use if/else, not looping)...*
   - Lesson 10 - Form Event Handling
     - We'll be applying what we've learned from handling events and adding in the ability to process user input via HTML Forms and client-side processing.
 
