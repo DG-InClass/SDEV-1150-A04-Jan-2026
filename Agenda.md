@@ -186,7 +186,7 @@ We meet on **Mondays** and **Thursdays**
 
 - **Today**
   - Assignment 1 notes:
-    - ***Additional Requirements:***
+    - 📌 ***Additional Requirements:***
       - [ ] Put your **human name** in the `README.md` on line 3
 
         ```md
@@ -196,6 +196,10 @@ We meet on **Mondays** and **Thursdays**
       - [ ] Put your **GitHub Username** as an additional line in `package.json`
 
         ![](./docs/images/package-json-author.png)
+
+    - 📌 *Make sure that GitHub Copilot Inline Suggestions are turned off*
+
+        ![](./docs/images/vscode-disable-inline-suggestions-ai.png)
 
     - *Using `npm run` in the terminal to discover the available package scripts*
     - *Commentary on `.innerText` vs. `.textContent`*
