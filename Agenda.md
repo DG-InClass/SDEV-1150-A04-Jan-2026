@@ -185,8 +185,24 @@ We meet on **Mondays** and **Thursdays**
 ### Day 10 | Feb 9
 
 - **Today**
-    - Lesson 10 - Form Event Handling
-      - We'll be applying what we've learned from handling events and adding in the ability to process user input via HTML Forms and client-side processing.
+  - Assignment 1 notes:
+    - ***Additional Requirements:***
+      - [ ] Put your **human name** in the `README.md` on line 3
+
+        ```md
+        > **Name:** Stewart Dent
+        ```
+
+      - [ ] Put your **GitHub Username** as an additional line in `package.json`
+
+        ![](./docs/images/package-json-author.png)
+
+    - *Using `npm run` in the terminal to discover the available package scripts*
+    - *Commentary on `.innerText` vs. `.textContent`*
+    - *Using the `<link>` to link up CSS files*
+    - *About `prompt()` looping...*
+  - Lesson 10 - Form Event Handling
+    - We'll be applying what we've learned from handling events and adding in the ability to process user input via HTML Forms and client-side processing.
 
       ```ps
       pnpm dlx tiged --disable-cache --force DG-InClass/SDEV-1150-A04-Jan-2026/sk/lesson-10 ./src/lesson-10
