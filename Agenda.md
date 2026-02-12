@@ -2,7 +2,7 @@
 
 We meet on **Mondays** and **Thursdays**
 
-> These are my notes on what I plan to teach in each [**upcoming class**](#day-9--feb-5). Also check out the [**Draft Planning Calendar**](./Calendar.md).
+> These are my notes on what I plan to teach in each [**upcoming class**](#day-11--feb-12). Also check out the [**Draft Planning Calendar**](./Calendar.md).
 >
 > ###### *... Warn those who are idle ..., encourage the disheartened, help the weak, be patient with everyone.*
 >
@@ -216,6 +216,12 @@ We meet on **Mondays** and **Thursdays**
 
 
 ### Day 11 | Feb 12
+
+- **Today**
+  - Assignment 1 - 🚀 Important Guidance
+
+
+### Day 12 | Feb 23
 
 - **Today**
     - Lesson 11 - HTML Form Validation
