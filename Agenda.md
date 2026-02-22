@@ -224,8 +224,8 @@ We meet on **Mondays** and **Thursdays**
 ### Day 12 | Feb 23
 
 - **Today**
-    - Lesson 11 - HTML Form Validation
-      - We'll buid on our form processing by performing validation of user input.
+  - Lesson 11 - HTML Form Validation
+    - We'll buid on our form processing by performing validation of user input.
 
       ```ps
       pnpm dlx tiged --disable-cache --force DG-InClass/SDEV-1150-A04-Jan-2026/sk/lesson-11 ./src/lesson-11
@@ -233,7 +233,161 @@ We meet on **Mondays** and **Thursdays**
 
 - **Homework**
 
+### Day 13 | Feb 26
 
+- **Today**
+  - Lesson 13 - Intro to Package Management
+    - This is not a *web application* yet - we're just exploring setting up a simple project with npm/pnpm.
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force DG-InClass/SDEV-1150-A04-Jan-2026/sk/lesson-13 ./src/lesson-13
+      ```
+
+- **Homework**
+
+### Day 14 | Mar 2
+
+- **Today**
+  - Lesson 14 - Building with Packages
+    - This is a simple *web application* using vite as the dev/build tool.
+    - We will also be exploring import/export
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force DG-InClass/SDEV-1150-A04-Jan-2026/sk/lesson-14 ./src/lesson-14
+      ```
+
+- **Homework**
+
+
+### Day 15 | Mar 5
+
+- **Today**
+  - Lesson 15 - HTTP and Server-side API Endpoints
+    - Focus on REST-styled APIs.
+    - We'll set up a "fake" REST server and explore get/post/put/delete
+    - We'll install a VS Code extension to play with REST calls
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force DG-InClass/SDEV-1150-A04-Jan-2026/sk/lesson-14 ./src/lesson-14
+      ```
+
+  - BONUS: Exploring JavaScript on the Server
+    - We'll explore a sample Http-Server as well.
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force DG-InClass/SDEV-1150-A04-Jan-2026/sk/sample-http-server ./src/sample-http-server
+      ```
+
+- **Homework**
+
+
+### Day 16 | Mar 9
+
+- **Today**
+  - Lesson 16 - Async JavaScript and the Fetch API
+    - Let's take a moment, after installation, to run `npm outdated`/`pnpm outdated` - I want to see what version of json-server is now available.
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force DG-InClass/SDEV-1150-A04-Jan-2026/sk/lesson-16 ./src/lesson-16
+      ```
+
+- **Homework**
+
+
+### Day 17 | Mar 12
+
+- **Today** | 🚨 Do NOT Skip This Class!
+  - Lesson 17 - In-Class Practice Exercises
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force DG-InClass/SDEV-1150-A04-Jan-2026/sk/lesson-17 ./src/lesson-17
+      ```
+
+- **Homework**
+
+
+### Day 18 | Mar 16
+
+- **Today**
+  - Lesson 18 - Debugging Front-End Async Applications
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force DG-InClass/SDEV-1150-A04-Jan-2026/sk/lesson-18 ./src/lesson-18
+      ```
+
+- **Homework**
+
+
+### Day 19 | Mar 19
+
+- **Today**
+- **Homework**
+
+
+### Day 20 | Mar 23
+
+- **Today**
+- **Homework**
+
+
+### Day 21 | Mar 26
+
+- **Today**
+- **Homework**
+
+
+### Day 22 | Mar 30
+
+- **Today**
+- **Homework**
+
+
+### Day 23 | Apr 2
+
+- **Today**
+- **Homework**
+
+
+### Day 24 | Apr 6
+
+- **Today**
+- **Homework**
+
+
+### Day 25 | Apr 9
+
+- **Today**
+- **Homework**
+
+
+### Day 26 | Apr 13
+
+- **Today**
+- **Homework**
+
+
+### Day 27 | Apr 16
+
+- **Today**
+- **Homework**
+
+
+### Day 28 | Apr 20
+
+- **Today**
+- **Homework**
+
+
+### Day 29 | Apr 23
+
+- **Today**
+- **Homework**
+
+
+### Day 30 | Apr 27
+
+- **Today**
+- **Homework**
 
 
 
