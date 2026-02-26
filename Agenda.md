@@ -2,7 +2,7 @@
 
 We meet on **Mondays** and **Thursdays**
 
-> These are my notes on what I plan to teach in each [**upcoming class**](#day-11--feb-12). Also check out the [**Draft Planning Calendar**](./Calendar.md).
+> These are my notes on what I plan to teach in each [**upcoming class**](#day-13--feb-26). Also check out the [**Draft Planning Calendar**](./Calendar.md).
 >
 > ###### *... Warn those who are idle ..., encourage the disheartened, help the weak, be patient with everyone.*
 >
@@ -224,6 +224,12 @@ We meet on **Mondays** and **Thursdays**
 ### Day 12 | Feb 23
 
 - **Today**
+  - Complete Lesson 10
+- **Homework**
+
+### Day 13 | Feb 26
+
+- **Today**
   - Lesson 11 - HTML Form Validation
     - We'll buid on our form processing by performing validation of user input.
 
@@ -233,7 +239,7 @@ We meet on **Mondays** and **Thursdays**
 
 - **Homework**
 
-### Day 13 | Feb 26
+### Day 14 | Mar 2
 
 - **Today**
   - Lesson 13 - Intro to Package Management
@@ -245,7 +251,8 @@ We meet on **Mondays** and **Thursdays**
 
 - **Homework**
 
-### Day 14 | Mar 2
+
+### Day 15 | Mar 5
 
 - **Today**
   - Lesson 14 - Building with Packages
@@ -259,7 +266,7 @@ We meet on **Mondays** and **Thursdays**
 - **Homework**
 
 
-### Day 15 | Mar 5
+### Day 16 | Mar 9
 
 - **Today**
   - Lesson 15 - HTTP and Server-side API Endpoints
@@ -281,7 +288,7 @@ We meet on **Mondays** and **Thursdays**
 - **Homework**
 
 
-### Day 16 | Mar 9
+### Day 17 | Mar 12
 
 - **Today**
   - Lesson 16 - Async JavaScript and the Fetch API
@@ -294,7 +301,7 @@ We meet on **Mondays** and **Thursdays**
 - **Homework**
 
 
-### Day 17 | Mar 12
+### Day 18 | Mar 16
 
 - **Today** | 🚨 Do NOT Skip This Class!
   - Lesson 17 - In-Class Practice Exercises
@@ -306,7 +313,7 @@ We meet on **Mondays** and **Thursdays**
 - **Homework**
 
 
-### Day 18 | Mar 16
+### Day 19 | Mar 19
 
 - **Today**
   - Lesson 18 - Debugging Front-End Async Applications
@@ -315,12 +322,6 @@ We meet on **Mondays** and **Thursdays**
       pnpm dlx tiged --disable-cache --force DG-InClass/SDEV-1150-A04-Jan-2026/sk/lesson-18 ./src/lesson-18
       ```
 
-- **Homework**
-
-
-### Day 19 | Mar 19
-
-- **Today**
 - **Homework**
 
 
