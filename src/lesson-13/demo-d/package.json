@@ -1,0 +1,20 @@
+{
+  "name": "demo-d",
+  "version": "1.0.0",
+  "description": "This is the demo that follows the ReadMe instructions for Lesson 13",
+  "main": "index.js",
+  "scripts": {
+    "start": "node main.js",
+    "format": "prettier --write ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "dayjs": "^1.11.19"
+  },
+  "devDependencies": {
+    "prettier": "^3.8.1"
+  }
+}

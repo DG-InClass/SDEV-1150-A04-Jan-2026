@@ -1,0 +1,13 @@
+{
+  "name": "lesson-13",
+  "version": "1.0.0",
+  "description": "```sh mkdir lesson-13 cd lesson-13 npm init # follow prompts ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

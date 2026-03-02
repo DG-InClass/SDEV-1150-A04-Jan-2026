@@ -1,0 +1,9 @@
+# .gitignore
+# This file tells git which files/folder to NOT
+# track in our version control.
+node_modules # This folder contains 3rd-party packages
+
+# Comments in .gitignore files start with a # sign
+# You can mix different sets of common files/folders
+# to ignore by creating a .gitignore through the site:
+# https://gitignore.io
