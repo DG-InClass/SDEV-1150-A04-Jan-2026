@@ -1,0 +1,27 @@
+# requests.http
+
+### GET all books
+GET http://localhost:3000/books
+Accept: application/json
+
+### POST new book
+POST http://localhost:3000/books
+Content-Type: application/json
+
+{
+    "title": "The Princess Bride",
+    "author": "William Goldman",
+    "year": 1973,
+    "genre": "Fantasy"
+}
+
+### PATCH update a book
+PATCH http://localhost:3000/books/2
+Content-Type: application/json
+
+{
+    "author": "Link, the Hero of Time"
+}
+
+### DELETE a book
+DELETE http://localhost:3000/books/3
