@@ -2,7 +2,7 @@
 
 We meet on **Mondays** and **Thursdays**
 
-> These are my notes on what I plan to teach in each [**upcoming class**](#day-13--feb-26). Also check out the [**Draft Planning Calendar**](./Calendar.md).
+> These are my notes on what I plan to teach in each [**upcoming class**](#day-16--mar-9). Also check out the [**Draft Planning Calendar**](./Calendar.md).
 >
 > ###### *... Warn those who are idle ..., encourage the disheartened, help the weak, be patient with everyone.*
 >
@@ -275,7 +275,7 @@ We meet on **Mondays** and **Thursdays**
     - We'll install a VS Code extension to play with REST calls
 
       ```ps
-      pnpm dlx tiged --disable-cache --force DG-InClass/SDEV-1150-A04-Jan-2026/sk/lesson-14 ./src/lesson-14
+      pnpm dlx tiged --disable-cache --force DG-InClass/SDEV-1150-A04-Jan-2026/sk/lesson-15 ./src/lesson-15
       ```
 
   - BONUS: Exploring JavaScript on the Server
