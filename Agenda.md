@@ -316,6 +316,7 @@ We meet on **Mondays** and **Thursdays**
 ### Day 19 | Mar 19
 
 - **Today**
+  - *Class Observer Today*
   - Lesson 18 - Debugging Front-End Async Applications
 
       ```ps
