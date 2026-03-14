@@ -290,7 +290,13 @@ We meet on **Mondays** and **Thursdays**
 
 ### Day 17 | Mar 12
 
-- **Today**
+- **Today** (*Work Period - Instructor away*)
+- **Homework**
+
+
+### Day 18 | Mar 16
+
+- **Today** | 🚨 Do NOT Skip This Class!
   - Lesson 16 - Async JavaScript and the Fetch API
     - Let's take a moment, after installation, to run `npm outdated`/`pnpm outdated` - I want to see what version of json-server is now available.
 
@@ -299,18 +305,12 @@ We meet on **Mondays** and **Thursdays**
       ```
 
 - **Homework**
-
-
-### Day 18 | Mar 16
-
-- **Today** | 🚨 Do NOT Skip This Class!
-  - Lesson 17 - In-Class Practice Exercises
+  - Lesson 17 - Take-Home Practice Exercises
 
       ```ps
       pnpm dlx tiged --disable-cache --force DG-InClass/SDEV-1150-A04-Jan-2026/sk/lesson-17 ./src/lesson-17
       ```
 
-- **Homework**
 
 
 ### Day 19 | Mar 19
@@ -329,54 +329,108 @@ We meet on **Mondays** and **Thursdays**
 ### Day 20 | Mar 23
 
 - **Today**
+  - Lesson 19 - Building Custom Elements (Vanilla JS Web Components)
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force DG-InClass/SDEV-1150-A04-Jan-2026/sk/lesson-19 ./src/lesson-19
+      ```
+
 - **Homework**
 
 
 ### Day 21 | Mar 26
 
 - **Today**
+  - Lesson 20 - Styling Components
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force DG-InClass/SDEV-1150-A04-Jan-2026/sk/lesson-20 ./src/lesson-20
+      ```
+
 - **Homework**
 
 
 ### Day 22 | Mar 30
 
 - **Today**
+  - Lesson 21 - Component Communication and Component State
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force DG-InClass/SDEV-1150-A04-Jan-2026/sk/lesson-21 ./src/lesson-21
+      ```
+
 - **Homework**
 
 
 ### Day 23 | Apr 2
 
 - **Today**
+  - Lesson 22 - Web Components Basics - In-Class Exercise
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force DG-InClass/SDEV-1150-A04-Jan-2026/sk/lesson-22 ./src/lesson-22
+      ```
+
 - **Homework**
 
 
 ### Day 24 | Apr 6
 
 - **Today**
+  - Lesson 23 - Component Lifecycle and State Management
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force DG-InClass/SDEV-1150-A04-Jan-2026/sk/lesson-23 ./src/lesson-23
+      ```
+
 - **Homework**
 
 
 ### Day 25 | Apr 9
 
 - **Today**
+  - Lesson 24 - Testing Web Components
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force DG-InClass/SDEV-1150-A04-Jan-2026/sk/lesson-24 ./src/lesson-24
+      ```
+
 - **Homework**
 
 
 ### Day 26 | Apr 13
 
 - **Today**
+  - Lesson 25 - Front-End Application Troubleshooting
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force DG-InClass/SDEV-1150-A04-Jan-2026/sk/lesson-25 ./src/lesson-25
+      ```
+
 - **Homework**
 
 
 ### Day 27 | Apr 16
 
 - **Today**
+  - Lesson 26 - Advanced DevTools Features
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force DG-InClass/SDEV-1150-A04-Jan-2026/sk/lesson-26 ./src/lesson-26
+      ```
+
 - **Homework**
 
 
 ### Day 28 | Apr 20
 
 - **Today**
+  - Lesson 27 - Deploying Web Applications
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force DG-InClass/SDEV-1150-A04-Jan-2026/sk/lesson-27 ./src/lesson-27
+      ```
+
 - **Homework**
 
 
