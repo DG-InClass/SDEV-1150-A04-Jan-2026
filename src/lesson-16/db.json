@@ -20,6 +20,14 @@
       "author": "Ganondorf",
       "year": 2021,
       "genre": "Epic"
+    },
+    {
+      "id": "a6e0",
+      "title": "The Princess Bride",
+      "author": "Franklin Somebody",
+      "year": 1968,
+      "genre": "Fantasy"
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
