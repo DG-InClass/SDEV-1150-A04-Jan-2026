@@ -27,6 +27,28 @@
       "author": "",
       "year": 0,
       "genre": "Adventure"
+    },
+    {
+      "id": "43c4",
+      "title": "Winnie the Pooh",
+      "author": "A.A. Milne",
+      "year": 1928,
+      "genre": "Fantasy"
+    },
+    {
+      "id": "49d3",
+      "title": "Math",
+      "author": "Newton",
+      "year": 1834,
+      "genre": "Epic"
+    },
+    {
+      "id": "40c1",
+      "title": "",
+      "author": "",
+      "year": 0,
+      "genre": "Adventure"
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }

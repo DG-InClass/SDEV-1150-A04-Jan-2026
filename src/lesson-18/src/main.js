@@ -3,23 +3,29 @@ import { fetchData, postData } from './utils';
 const loadButton = document.getElementById('loadBooks');
 const addForm = document.getElementById('addBook');
 const list = document.getElementById('bookList');
-const endpoint = 'http://localhost:3000/book';
+const endpoint = 'http://localhost:3000/books';
 
 async function loadHandler() {
   list.innerHTML = '<li>Loading...</li>';
-
-  const books = fetchData(endpoint);
-
-  // Simulate a delay for demonstration purposes
-  await new Promise(resolve => setTimeout(resolve, 2000));
-
-  list.innerHTML = '';
-
-  books.forEach((book) => {
-    const li = document.createElement('li');
-    li.textContent = `${book.title} by ${book.author}`;
-    list.appendChild(li);
-  });
+  loadButton.disabled = true; // Disable the button until we are done
+  try {
+    const books = await fetchData(endpoint);
+  
+    // Simulate a delay for demonstration purposes
+    await new Promise(resolve => setTimeout(resolve, 2000));
+  
+    list.innerHTML = '';
+    
+    books.forEach((book) => {
+      const li = document.createElement('li');
+      li.textContent = `${book.title} by ${book.author}`;
+      list.appendChild(li);
+    });
+  } catch (error) {
+    // I should really decide what the best way of handling the problem is
+  } finally {
+    loadButton.disabled = false; // Reenable the button
+  }
 }
 
 async function submitHandler(e) {
