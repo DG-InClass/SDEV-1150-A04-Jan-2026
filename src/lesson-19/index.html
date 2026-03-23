@@ -13,7 +13,25 @@
 <body>
   <main>
     <!-- Template here -->
+    <details>
+      <summary>Open for more information</summary>
+      <p>The details/summary tag makes collapsible areas easy to create.</p>
+      <p>Before HTML5, if we wanted this ability to open/close an area, you had to create the JavaScript to perform the actions yourself.</p>
+    </details>
+
+    <p>Imagine that we had a page where we would want several "cards" of information that follows the same "design" or pattern:</p>
+
+    <template id="user-card-template">
+      <div class="card">
+        <img src="assets/zelda-avatar.png" width="80" height="80" alt="avatar" />
+        <div class="info">
+          <span class="name">Zelda</span>
+          <span class="description">Princess of Hyrule</span>
+        </div>
+      </div>
+    </template>
     <!-- Create user-cards here -->
+    <user-card></user-card>
   </main>
 
 </body>
