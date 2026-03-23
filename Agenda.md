@@ -350,6 +350,21 @@ We meet on **Mondays** and **Thursdays**
 ### Day 21 | Mar 26
 
 - **Today**
+  - Why you should avoid `.innerHTML`
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force DG-InClass/SDEV-1150-A04-Jan-2026/sk/lesson-18.5 ./src/lesson-18.5
+      ```
+
+  - Continue Lesson 19
+    - Extra Character Images
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force DG-InClass/SDEV-1150-A04-Jan-2026/sk/lesson-19/public/assets ./src/lesson-19/public/assets
+      ```
+
+    - Self-Contained Templates (see [here](https://dg-inclass.github.io/sdev-1150/lessons/19/#self-contained-templates))
+    - Dynamically Adding Custom Components (see [here](https://dg-inclass.github.io/sdev-1150/lessons/19/#add-user-cards-programatically))
   - Lesson 20 - Styling Components
 
       ```ps
