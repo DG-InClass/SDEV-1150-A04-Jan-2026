@@ -16,22 +16,52 @@
     <details>
       <summary>Open for more information</summary>
       <p>The details/summary tag makes collapsible areas easy to create.</p>
-      <p>Before HTML5, if we wanted this ability to open/close an area, you had to create the JavaScript to perform the actions yourself.</p>
+      <p>Before HTML5, if we wanted this ability to open/close an area, you had to create the JavaScript to perform the
+        actions yourself.</p>
     </details>
 
-    <p>Imagine that we had a page where we would want several "cards" of information that follows the same "design" or pattern:</p>
+    <p>Imagine that we had a page where we would want several "cards" of information that follows the same "design" or
+      pattern:</p>
 
     <template id="user-card-template">
+      <style>
+        /* User Card Styles */
+        .card {
+          background: #ffffff;
+          color: #222222;
+          border: 1px solid #e6e6e6;
+          padding: 12px;
+          border-radius: 8px;
+          display: flex;
+          gap: 12px;
+          align-items: center;
+          width: 320px;
+          box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
+        }
+
+        .name {
+          font-size: 1.2em;
+          font-weight: bold;
+          margin: 0;
+        }
+      </style>
       <div class="card">
-        <img src="assets/zelda-avatar.png" width="80" height="80" alt="avatar" />
+        <img src="" width="80" height="80" alt="avatar" />
         <div class="info">
-          <span class="name">Zelda</span>
-          <span class="description">Princess of Hyrule</span>
+          <slot name="characterName" class="name"></slot>
+          <slot name="about" class="description"></slot>
         </div>
       </div>
     </template>
     <!-- Create user-cards here -->
-    <user-card></user-card>
+    <user-card avatar="assets/zelda-avatar.png">
+      <span slot="characterName">Zelda</span>
+      <span slot="about">Princess of Hyrule</span>
+    </user-card>
+    <user-card avatar="assets/link-avatar.png">
+      <span slot="about">Hero of Hyrule</span>
+      <span slot="characterName">Link</span>
+    </user-card>
   </main>
 
 </body>

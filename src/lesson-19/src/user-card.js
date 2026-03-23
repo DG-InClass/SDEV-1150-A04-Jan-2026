@@ -12,6 +12,16 @@ class UserCard extends HTMLElement {
         const template = document.getElementById('user-card-template');
         const content = template.content.cloneNode(true);
 
+        // Look for an `avatar=""` attribute on our <user-card>
+        const img = content.querySelector('img');
+        const srcUrl = this.getAttribute('avatar');
+        if(srcUrl) {
+            img.src = srcUrl;
+        } else {
+            // "fallback" image if no avatar is provided.
+            img.src = 'https://placehold.co/80x80';
+        }
+
         shadow.appendChild(content);
     }
 }
