@@ -2,7 +2,7 @@
 
 We meet on **Mondays** and **Thursdays**
 
-> These are my notes on what I plan to teach in each [**upcoming class**](#day-16--mar-9). Also check out the [**Draft Planning Calendar**](./Calendar.md).
+> These are my notes on what I plan to teach in each [**upcoming class**](#day-20--mar-23). Also check out the [**Draft Planning Calendar**](./Calendar.md).
 >
 > ###### *... Warn those who are idle ..., encourage the disheartened, help the weak, be patient with everyone.*
 >
@@ -336,6 +336,15 @@ We meet on **Mondays** and **Thursdays**
       ```
 
 - **Homework**
+  - *Instructor Homework* - Get avatars for
+    - Navi
+    - Ganon
+    - Impa
+    - Din
+    - Malon
+    - Anju
+    - Kaffei
+    - Minda
 
 
 ### Day 21 | Mar 26
