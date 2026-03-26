@@ -372,6 +372,7 @@ We meet on **Mondays** and **Thursdays**
       ```
 
 - **Homework**
+  - Read [Using the Shadow DOM](https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_shadow_DOM)
 
 
 ### Day 22 | Mar 30
