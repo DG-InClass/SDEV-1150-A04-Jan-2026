@@ -390,12 +390,6 @@ We meet on **Mondays** and **Thursdays**
 ### Day 23 | Apr 2
 
 - **Today**
-- **Homework**
-
-
-### Day 24 | Apr 6
-
-- **Today**
   - Lesson 22 - Web Components Basics - In-Class Exercise
 
       ```ps
@@ -403,6 +397,11 @@ We meet on **Mondays** and **Thursdays**
       ```
 
 - **Homework**
+
+
+### Day 24 | Apr 6
+
+- **✝️ Easter Monday**
 
 
 ### Day 25 | Apr 9
