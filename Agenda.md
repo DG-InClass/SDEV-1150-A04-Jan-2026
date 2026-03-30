@@ -378,18 +378,18 @@ We meet on **Mondays** and **Thursdays**
       pnpm dlx tiged --disable-cache --force DG-InClass/SDEV-1150-A04-Jan-2026/sk/lesson-20 ./src/lesson-20
       ```
 
-- **Homework**
-
-
-### Day 23 | Apr 2
-
-- **Today**
   - Lesson 21 - Component Communication and Component State
 
       ```ps
       pnpm dlx tiged --disable-cache --force DG-InClass/SDEV-1150-A04-Jan-2026/sk/lesson-21 ./src/lesson-21
       ```
 
+- **Homework**
+
+
+### Day 23 | Apr 2
+
+- **Today**
 - **Homework**
 
 
