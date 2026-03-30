@@ -36,3 +36,17 @@ toggleBtn.addEventListener('click', () => {
   document.documentElement.style.setProperty('--global-card-color', dark ? '#e5e7eb' : '#222222');
   document.documentElement.style.setProperty('--global-card-accent', dark ? 'gold' : '#0077ff');
 });
+
+
+// Programmatically follow the first user card
+document.querySelector('user-card').follow();
+
+document
+  .querySelector('user-card')
+  .addEventListener('follow-change', (evt) => {
+    const card = evt.target;
+//    debugger;
+    const character = card.querySelector('[slot=name]').textContent;
+    const message = `User ${character} is ${evt.detail.followed ? 'followed' : 'NOT followed'}`;
+    console.log(message);
+  });

@@ -48,6 +48,7 @@ template.innerHTML = `
       <slot name="name" class="name"></slot>
       <slot name="description" class="description"></slot>
     </div>
+    <button>Follow</button>
   </div>
 `;
 document.body.appendChild(template);
@@ -56,12 +57,48 @@ class UserCard extends HTMLElement {
   constructor() {
     super();
 
+    // Add a property to track the followed state
+    this._followed = false; // Putting an underscore before is a cue
+                            // to other developers that they should
+                            // NOT be directly accessing this property.
+    
+
     const shadow = this.attachShadow({ mode: 'open' });
     const content = template.content.cloneNode(true);
     const img = content.querySelector('img');
     img.src = this.getAttribute('avatar') || 'https://placehold.co/80x80/0077ff/ffffff';
 
+    this._btn = content.querySelector('button');
+    this._btn.addEventListener('click', () => {
+      this._setFollow(!this._followed); // Toggle the state
+      console.log('Follow button clicked'); // helpful for debugging
+    });
+
     shadow.appendChild(content);
+  } // end of the constructor()
+
+  _setFollow(value) {
+    this._followed = value;
+    this._btn.textContent = this._followed ? 'Following' : 'Follow';
+    // emit (dispatch) a custom event so that the parent container
+    // can react to what happened internally with my component.
+    this.dispatchEvent(new CustomEvent('follow-change', {
+      detail: {
+        id: this.getAttribute('user-id') || null,
+        followed: this._followed
+      },
+      bubbles: true, // the event can "bubble up" through the DOM
+      composed: true
+    }));
+  }
+
+  // Two functions so that other code (like main.js) can programmatically change the followed state
+  follow() {
+    this._setFollow(true);
+  }
+
+  unfollow() {
+    this._setFollow(false);
   }
 
   // Respond to attribute changes if needed in the future
