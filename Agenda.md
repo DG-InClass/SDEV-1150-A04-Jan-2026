@@ -2,7 +2,7 @@
 
 We meet on **Mondays** and **Thursdays**
 
-> These are my notes on what I plan to teach in each [**upcoming class**](#day-21--mar-26). Also check out the [**Draft Planning Calendar**](./Calendar.md).
+> These are my notes on what I plan to teach in each [**upcoming class**](#day-22--mar-30). Also check out the [**Draft Planning Calendar**](./Calendar.md).
 >
 > ###### *... Warn those who are idle ..., encourage the disheartened, help the weak, be patient with everyone.*
 >
@@ -365,6 +365,13 @@ We meet on **Mondays** and **Thursdays**
 
     - Self-Contained Templates (see [here](https://dg-inclass.github.io/sdev-1150/lessons/19/#self-contained-templates))
     - Dynamically Adding Custom Components (see [here](https://dg-inclass.github.io/sdev-1150/lessons/19/#add-user-cards-programatically))
+- **Homework**
+  - Read [Using the Shadow DOM](https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_shadow_DOM)
+
+
+### Day 22 | Mar 30
+
+- **Today**
   - Lesson 20 - Styling Components
 
       ```ps
@@ -372,10 +379,9 @@ We meet on **Mondays** and **Thursdays**
       ```
 
 - **Homework**
-  - Read [Using the Shadow DOM](https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_shadow_DOM)
 
 
-### Day 22 | Mar 30
+### Day 23 | Apr 2
 
 - **Today**
   - Lesson 21 - Component Communication and Component State
@@ -387,7 +393,7 @@ We meet on **Mondays** and **Thursdays**
 - **Homework**
 
 
-### Day 23 | Apr 2
+### Day 24 | Apr 6
 
 - **Today**
   - Lesson 22 - Web Components Basics - In-Class Exercise
@@ -399,7 +405,7 @@ We meet on **Mondays** and **Thursdays**
 - **Homework**
 
 
-### Day 24 | Apr 6
+### Day 25 | Apr 9
 
 - **Today**
   - Lesson 23 - Component Lifecycle and State Management
@@ -411,7 +417,7 @@ We meet on **Mondays** and **Thursdays**
 - **Homework**
 
 
-### Day 25 | Apr 9
+### Day 26 | Apr 13
 
 - **Today**
   - Lesson 24 - Testing Web Components
@@ -423,7 +429,7 @@ We meet on **Mondays** and **Thursdays**
 - **Homework**
 
 
-### Day 26 | Apr 13
+### Day 27 | Apr 16
 
 - **Today**
   - Lesson 25 - Front-End Application Troubleshooting
@@ -435,7 +441,7 @@ We meet on **Mondays** and **Thursdays**
 - **Homework**
 
 
-### Day 27 | Apr 16
+### Day 28 | Apr 20
 
 - **Today**
   - Lesson 26 - Advanced DevTools Features
@@ -447,7 +453,7 @@ We meet on **Mondays** and **Thursdays**
 - **Homework**
 
 
-### Day 28 | Apr 20
+### Day 29 | Apr 23
 
 - **Today**
   - Lesson 27 - Deploying Web Applications
@@ -456,12 +462,6 @@ We meet on **Mondays** and **Thursdays**
       pnpm dlx tiged --disable-cache --force DG-InClass/SDEV-1150-A04-Jan-2026/sk/lesson-27 ./src/lesson-27
       ```
 
-- **Homework**
-
-
-### Day 29 | Apr 23
-
-- **Today**
 - **Homework**
 
 
