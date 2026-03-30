@@ -6,11 +6,11 @@ template.innerHTML = `
       --card-bg: var(--global-card-bg, #ffffff);
       --card-color: var(--global-card-color, #222222);
       --card-accent: var(--global-card-accent, #0077ff);
-      display: block;
     }
+
     .card {
       background: var(--card-bg);
-      color: var(card-color);
+      color: var(--card-color);
       border: 1px solid #e6e6e6;
       padding: 12px;
       border-radius: 8px;
@@ -38,15 +38,15 @@ template.innerHTML = `
       height: 80px;
       border-radius: 50%;
       object-fit: cover;
-      flex: 0 0 80px;
+      flex 0 0 80px;
     }
   </style>
   
   <div class="card">
     <img src="" width="80" height="80" alt="avatar">
     <div class="info">
-      <slot name="name" class="name"></slot>
-      <slot name="description" class="description"></slot>
+      <slot name="characterName" class="name"></slot>
+      <slot name="about" class="description"></slot>
     </div>
   </div>
 `;
@@ -62,6 +62,21 @@ class UserCard extends HTMLElement {
     const img = content.querySelector('img');
     img.src = this.getAttribute('avatar') || 'https://placehold.co/80x80/0077ff/ffffff';
     shadow.appendChild(content);
+  }
+
+  // Being able to dynamically respond to changes in a custom element's
+  // attributes is done through these two functions.
+  static get observedAttributes() {
+    return ['avatar'];
+  }
+
+  attributeChangedCallback(name, oldValue, newValue) {
+    if (name === 'avatar' && this.shadowRoot) {
+      const img = this.shadowRoot.querySelector('img');
+      if(img) {
+        img.src = newValue;
+      }
+    }
   }
 }
 customElements.define('user-card', UserCard);

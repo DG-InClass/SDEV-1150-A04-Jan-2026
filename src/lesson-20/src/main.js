@@ -4,8 +4,8 @@ import './user-card.js';
 // Create an additional user card using HTML and append it to the main element
 const dynamicUserCard = `
     <user-card avatar="https://placehold.co/80x80/7700ff/ffffff">
-      <span slot="name">Mipha</span>
-      <span slot="description">Zora Champion</span>
+      <span slot="characterName">Mipha</span>
+      <span slot="about">Zora Champion</span>
     </user-card>`;
 
 document.querySelector('main').insertAdjacentHTML('beforeend', dynamicUserCard);
@@ -14,10 +14,10 @@ document.querySelector('main').insertAdjacentHTML('beforeend', dynamicUserCard);
 const anotherUserCard = document.createElement('user-card');
 anotherUserCard.setAttribute('avatar', 'https://placehold.co/80x80/770000/ffffff');
 const nameSpan = document.createElement('span');
-nameSpan.setAttribute('slot', 'name');
+nameSpan.setAttribute('slot', 'characterName');
 nameSpan.textContent = 'Yunobo';
 const descSpan = document.createElement('span');
-descSpan.setAttribute('slot', 'description');
+descSpan.setAttribute('slot', 'about');
 descSpan.textContent = 'President of YunoboCo';
 anotherUserCard.appendChild(nameSpan);
 anotherUserCard.appendChild(descSpan);
@@ -25,14 +25,16 @@ anotherUserCard.appendChild(descSpan);
 document.querySelector('main').appendChild(anotherUserCard);
 // Why doesn't the custom avatar show up for this element?
 
+// Add a toggle button that will dynamically add/remove some
+// global CSS styles.
 const toggleBtn = document.createElement('button');
 toggleBtn.textContent = 'Toggle theme';
-document.body.prepend(toggleBtn);
+document.body.prepend(toggleBtn); // Put the button before all the other content inside the `<body>`
 
 let dark = false;
 toggleBtn.addEventListener('click', () => {
-  dark = !dark;
+  dark = !dark; // flip the global "flag"
   document.documentElement.style.setProperty('--global-card-bg', dark ? '#1f2937' : '#ffffff');
-  document.documentElement.style.setProperty('--global-card-color', dark ? '#e5e7b' : '#222222');
+  document.documentElement.style.setProperty('--global-card-color', dark ? '#e5e7eb' : '#222222');
   document.documentElement.style.setProperty('--global-card-accent', dark ? 'gold' : '#0077ff');
 });
