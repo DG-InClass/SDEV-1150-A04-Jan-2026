@@ -390,10 +390,10 @@ We meet on **Mondays** and **Thursdays**
 ### Day 23 | Apr 2
 
 - **Today**
-  - Lesson 22 - Web Components Basics - In-Class Exercise
+  - Lesson 23 - Component Lifecycle and State Management
 
       ```ps
-      pnpm dlx tiged --disable-cache --force DG-InClass/SDEV-1150-A04-Jan-2026/sk/lesson-22 ./src/lesson-22
+      pnpm dlx tiged --disable-cache --force DG-InClass/SDEV-1150-A04-Jan-2026/sk/lesson-23 ./src/lesson-23
       ```
 
 - **Homework**
@@ -407,12 +407,6 @@ We meet on **Mondays** and **Thursdays**
 ### Day 25 | Apr 9
 
 - **Today**
-  - Lesson 23 - Component Lifecycle and State Management
-
-      ```ps
-      pnpm dlx tiged --disable-cache --force DG-InClass/SDEV-1150-A04-Jan-2026/sk/lesson-23 ./src/lesson-23
-      ```
-
 - **Homework**
 
 
