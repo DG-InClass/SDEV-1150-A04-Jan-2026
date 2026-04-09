@@ -43,7 +43,7 @@ template.innerHTML = `
   </style>
   
   <div class="card">
-    <img src="" width="80" height="80" alt="avatar">
+    <img src="" width="80" height="80" alt="Placeholder Avatar">
     <div class="info">
       <slot name="name" class="name"></slot>
       <slot name="description" class="description"></slot>
