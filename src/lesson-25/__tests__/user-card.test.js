@@ -49,6 +49,26 @@ describe('UserCard', () => {
     expect(descSlot.assignedNodes()[0].textContent).toBe('A user for testing with Vitest');
   });
 
+  test('render description when setting the user property', () => {
+    // Arrange
+    const user = {
+      id: 'user123',
+      name: 'Test User',
+      description: 'This is a test user',
+      avatar: 'https://example.com/user-avatar.png'
+    }
+
+    // Act
+    element.user = user;
+    document.body.appendChild(element);
+
+    // Assert
+    const descSlot = element.shadowRoot.querySelector('[name="description"]');
+    expect(descSlot).toBeDefined();
+    console.log(element.shadowRoot.toString());
+    expect(descSlot.textContent).toBe(user.description);
+  });
+
   test('updates the avatar image', () => {
     // Arrange
     const testAvatarUrl = 'http://example.com/avatar.png';

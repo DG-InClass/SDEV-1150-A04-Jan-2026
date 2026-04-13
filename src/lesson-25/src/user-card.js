@@ -85,7 +85,7 @@ class UserCard extends HTMLElement {
         nameSlot.textContent = this.#user.name || '';
       }
 
-      const descSlot = this.shadowRoot.querySelector('[name="descriptions"]');
+      const descSlot = this.shadowRoot.querySelector('[name="description"]');
       if (descSlot) {
         descSlot.textContent = this.#user.description || '';
       }
