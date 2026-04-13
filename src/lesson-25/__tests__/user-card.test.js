@@ -98,4 +98,18 @@ describe('UserCard', () => {
     // Assert
     expect(element.shadowRoot.querySelector('img').getAttribute('src')).toBe(testAvatarUrl);
   });
+
+  test('button click toggles follow state', () => {
+    // Arrange
+    document.body.appendChild(element); // Our design has the .followed initialzed to false
+    expect(element.followed, 'PRECONDITION: user-card element should initialize to false for .followed').toBe(false);
+    const button = element.shadowRoot.querySelector('button');
+
+    // Act / Assert
+    button.click();
+    expect(element.followed).toBe(true);
+
+    button.click();
+    expect(element.followed).toBe(false);
+  });
 });
