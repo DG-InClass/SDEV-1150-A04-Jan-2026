@@ -2,7 +2,7 @@
 
 We meet on **Mondays** and **Thursdays**
 
-> These are my notes on what I plan to teach in each [**upcoming class**](#day-22--mar-30). Also check out the [**Draft Planning Calendar**](./Calendar.md).
+> These are my notes on what I plan to teach in each [**upcoming class**](#day-26--apr-13). Also check out the [**Draft Planning Calendar**](./Calendar.md).
 >
 > ###### *... Warn those who are idle ..., encourage the disheartened, help the weak, be patient with everyone.*
 >
@@ -407,12 +407,6 @@ We meet on **Mondays** and **Thursdays**
 ### Day 25 | Apr 9
 
 - **Today**
-- **Homework**
-
-
-### Day 26 | Apr 13
-
-- **Today**
   - Lesson 24 - Testing Web Components
 
       ```ps
@@ -422,7 +416,7 @@ We meet on **Mondays** and **Thursdays**
 - **Homework**
 
 
-### Day 27 | Apr 16
+### Day 26 | Apr 13
 
 - **Today**
   - Lesson 25 - Front-End Application Troubleshooting
@@ -431,12 +425,6 @@ We meet on **Mondays** and **Thursdays**
       pnpm dlx tiged --disable-cache --force DG-InClass/SDEV-1150-A04-Jan-2026/sk/lesson-25 ./src/lesson-25
       ```
 
-- **Homework**
-
-
-### Day 28 | Apr 20
-
-- **Today**
   - Lesson 26 - Advanced DevTools Features
 
       ```ps
@@ -446,13 +434,37 @@ We meet on **Mondays** and **Thursdays**
 - **Homework**
 
 
-### Day 29 | Apr 23
+### Day 27 | Apr 16
 
 - **Today**
   - Lesson 27 - Deploying Web Applications
 
       ```ps
       pnpm dlx tiged --disable-cache --force DG-InClass/SDEV-1150-A04-Jan-2026/sk/lesson-27 ./src/lesson-27
+      ```
+
+- **Homework**
+
+
+### Day 28 | Apr 20
+
+- **Today**
+  - Lesson 29 - Introduction to React Components and JSX
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force DG-InClass/SDEV-1150-A04-Jan-2026/sk/lesson-29 ./src/lesson-29
+      ```
+
+- **Homework**
+
+
+### Day 29 | Apr 23
+
+- **Today**
+  - Lesson 30 - React State & Event Handling
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force DG-InClass/SDEV-1150-A04-Jan-2026/sk/lesson-30 ./src/lesson-30
       ```
 
 - **Homework**
